@@ -1,0 +1,50 @@
+<template>
+  <div class="postlist-wrapper">
+    <PostListItem v-for="item in slicedPosts" :key="item.path" :item="item" />
+    <Pager :data="pagerData" />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { computed } from "vue";
+import { useRouter } from "vue-router";
+import { useBlog, useThemeLocaleData } from "../composables";
+import Pager from "./Pager.vue";
+import PostListItem from "./PostListItem.vue";
+
+const router = useRouter();
+const themeLocale = useThemeLocaleData();
+
+const pageIndex = computed(() => {
+  const index = router.currentRoute.value.params.id || 1;
+  if (isNaN(Number(index))) return 1;
+  return Number(index);
+});
+
+const { posts, postIndex, post, slicedPosts, pagerLink } = useBlog(pageIndex);
+
+const pagerData = computed(() => {
+  const links = pagerLink.value;
+
+  const next =
+    links && links.next
+      ? {
+          text: themeLocale.value.homeNext,
+          link: links.next
+        }
+      : null;
+
+  const prev =
+    links && links.prev
+      ? {
+          text: themeLocale.value.homePrev,
+          link: links.prev
+        }
+      : null;
+
+  return {
+    next: next,
+    prev: prev
+  };
+});
+</script>
