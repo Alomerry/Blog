@@ -1,0 +1,78 @@
+@import '_variables';
+@import '_mixins';
+
+.custom-container {
+  transition: color var(--t-color), border-color var(--t-color),
+    background-color var(--t-color);
+
+  .custom-container-title {
+    font-weight: 600;
+    margin-bottom: -0.4rem;
+  }
+
+  &.info,
+  &.tip,
+  &.warning,
+  &.danger {
+    position: relative;
+    padding: 0.1rem 1.5rem;
+    border-left-width: 0.5rem;
+    border-left-style: solid;
+    margin: 1rem 0;
+    background-color: var(--c-bg-lighter);
+  }
+
+  &.info {
+    border-color: var(--c-info);
+  }
+
+  &.tip {
+    border-color: var(--c-tip);
+
+    .custom-container-title {
+      color: var(--c-tip-title);
+    }
+  }
+
+  &.warning {
+    border-color: var(--c-warning);
+
+    .custom-container-title {
+      color: var(--c-warning-title);
+    }
+  }
+
+  &.danger {
+    border-color: var(--c-danger);
+
+    .custom-container-title {
+      color: var(--c-danger-title);
+    }
+  }
+
+  &.details {
+    display: block;
+    position: relative;
+    border-radius: 2px;
+    margin: 1.6em 0;
+    padding: 1.6em;
+    background-color: var(--c-bg-lighter);
+
+    h4 {
+      margin-top: 0;
+    }
+
+    figure,
+    p {
+      &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    summary {
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

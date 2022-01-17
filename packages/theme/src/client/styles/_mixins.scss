@@ -1,0 +1,43 @@
+@mixin transition($value) {
+  transition: $value;
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  -ms-transition: $value;
+}
+
+@mixin transform($value) {
+  transform: $value;
+  -webkit-transform: $value;
+  -moz-transform: $value;
+  -o-transform: $value;
+  -ms-transform: $value;
+}
+
+@mixin hideScrollbar() {
+  // Chrome, Safari
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  // IE
+  -ms-overflow-style: none;
+  // Firefox
+  scrollbar-width: none;
+}
+
+@mixin placeholdeTextColor($value) {
+  &::-webkit-input-placeholder {
+    color: $value;
+  }
+  &::-moz-placeholder {
+    color: $value;
+  }
+  &:-moz-placeholder {
+    color: $value;
+  }
+  &:-ms-input-placeholder {
+    color: $value;
+  }
+}

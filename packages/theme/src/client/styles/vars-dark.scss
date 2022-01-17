@@ -1,0 +1,32 @@
+@import '_variables';
+
+html.dark {
+  // brand colors
+  --c-brand: #{$brandColorDark};
+
+  // background colors
+  --c-bg: #{$bgColorDark};
+  --c-bg-light: #{$bgColorLightDark};
+  --c-bg-lighter: #{$bgColorLighterDark};
+  --c-bg-transparent: #{$bgColorTransparentDark};
+
+  // text colors
+  --c-text: #{$textColorDark};
+  --c-text-sub: #{$textColorSubDark};
+
+  // border colors
+  --c-border: #{$borderColorDark};
+  --c-border-sub: #{$borderColorSubDark};
+
+  // code blocks vars
+  --code-hl-bg-color: #363b46;
+  --inline-code-color: #{$inlineCodeTextDark};
+  --inline-code-bg-color: #{$inlineCodeBgDark};
+
+  // image masks
+  --image-mask-color: #{$darkColor3};
+
+  // shadows
+  --box-shadow: #{$boxShadowDark};
+  --box-shadow-hover: #{$boxShadowHoverDark};
+}
