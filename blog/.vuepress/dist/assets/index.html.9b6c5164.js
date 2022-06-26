@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd239e30","path":"/tags/frp/","title":"frp | Tags","lang":"en-US","frontmatter":{"title":"frp | Tags","layout":"Tags","blog":{"type":"category","name":"frp","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};
