@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-e4b84c3a","path":"/tags/markdown/","title":"Markdown | Tags","lang":"en-US","frontmatter":{"title":"Markdown | Tags","layout":"Tags","blog":{"type":"category","name":"Markdown","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};

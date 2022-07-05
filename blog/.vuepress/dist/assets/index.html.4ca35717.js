@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d73c07e0","path":"/tags/gk64/","title":"GK64 | Tags","lang":"en-US","frontmatter":{"title":"GK64 | Tags","layout":"Tags","blog":{"type":"category","name":"GK64","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

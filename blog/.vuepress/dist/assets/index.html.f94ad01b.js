@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd20fc2e","path":"/tags/ioi/","title":"IOI | Tags","lang":"en-US","frontmatter":{"title":"IOI | Tags","layout":"Tags","blog":{"type":"category","name":"IOI","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

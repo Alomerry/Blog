@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as c}from"./app.c3e71323.js";const n={},_=c("p",null,"https://developer.kaiheila.cn/doc/intro",-1),a=[_];function r(s,l){return t(),o("div",null,a)}var d=e(n,[["render",r],["__file","2022-04-29-bot-huan.html.vue"]]);export{d as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a4b27170","path":"/tags/messagequeue/","title":"MessageQueue | Tags","lang":"en-US","frontmatter":{"title":"MessageQueue | Tags","layout":"Tags","blog":{"type":"category","name":"MessageQueue","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{e as data};

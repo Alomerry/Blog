@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as c}from"./app.c3e71323.js";const n={},_=c("p",null,"https://www.gzblog.tech/2022/04/30/Build-Your-Own-Cloud-Game-Streaming-Service/",-1),r=[_];function s(a,l){return t(),o("div",null,r)}var m=e(n,[["render",s],["__file","2022-05-29-home-vm-ubuntu.html.vue"]]);export{m as default};

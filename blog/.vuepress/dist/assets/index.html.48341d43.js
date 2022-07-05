@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-0e6ef3de","path":"/tags/v2ray/","title":"v2ray | Tags","lang":"en-US","frontmatter":{"title":"v2ray | Tags","layout":"Tags","blog":{"type":"category","name":"v2ray","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};

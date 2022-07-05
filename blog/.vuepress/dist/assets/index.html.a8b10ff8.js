@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd18c772","path":"/tags/rpc/","title":"RPC | Tags","lang":"en-US","frontmatter":{"title":"RPC | Tags","layout":"Tags","blog":{"type":"category","name":"RPC","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

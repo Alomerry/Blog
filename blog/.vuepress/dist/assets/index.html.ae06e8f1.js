@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-075f19dc","path":"/tags/typecho/","title":"Typecho | Tags","lang":"en-US","frontmatter":{"title":"Typecho | Tags","layout":"Tags","blog":{"type":"category","name":"Typecho","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{e as data};
