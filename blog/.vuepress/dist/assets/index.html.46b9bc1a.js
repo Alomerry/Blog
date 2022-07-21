@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd15209a","path":"/tags/vps/","title":"VPS | Tags","lang":"en-US","frontmatter":{"title":"VPS | Tags","layout":"Tags","blog":{"type":"category","name":"VPS","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

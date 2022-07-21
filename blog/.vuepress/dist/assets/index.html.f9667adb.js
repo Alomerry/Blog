@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58f735d4","path":"/tags/jenkins/","title":"Jenkins | Tags","lang":"en-US","frontmatter":{"title":"Jenkins | Tags","layout":"Tags","blog":{"type":"category","name":"Jenkins","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{e as data};

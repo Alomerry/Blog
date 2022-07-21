@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as s,b as e,e as a}from"./app.1f640783.js";const _={},c=e("h2",{id:"epoll",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#epoll","aria-hidden":"true"},"#"),a(" epoll")],-1),r=e("p",null,"xxxx",-1),l=[c,r];function n(d,i){return t(),s("div",null,l)}var x=o(_,[["render",n],["__file","2022-03-15-todo~system-io.html.vue"]]);export{x as default};

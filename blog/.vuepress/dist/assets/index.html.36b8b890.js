@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-86f7eecc","path":"/tags/rocket.chat/","title":"Rocket.Chat | Tags","lang":"en-US","frontmatter":{"title":"Rocket.Chat | Tags","layout":"Tags","blog":{"type":"category","name":"Rocket.Chat","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};

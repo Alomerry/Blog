@@ -20,6 +20,24 @@ tags:
 
 ## TODO 
 
+使用稀疏索引提高 exists 的性能 https://www.mongodb.com/docs/manual/reference/operator/query/exists/#use-a-sparse-index-to-improve--exists-performance
+
+Mongodb 中文文档 https://www.docs4dev.com/docs/zh/mongodb/v3.6/reference/tutorial-update-documents.html
+
+行为 https://docs.mongoing.com/can-kao/yun-suan-fu/aggregation-pipeline-operators/convert-aggregation
+
+日期转换为时间戳 https://www.cainiaojc.com/note/qa03ld.html
+
+MongoDB学习笔记(八)——操作汇总运算符、修饰符、聚合管道  https://blog.csdn.net/qq_33206732/article/details/79957983
+
+毫秒级时间修改为秒级时间 https://blog.csdn.net/qq_38148394/article/details/87881128
+
+type值 https://xuexiyuan.cn/article/detail/107.html
+
+加减乘除  https://www.cnblogs.com/xuliuzai/p/10321650.html
+
+mongoDB if else https://www.it1352.com/1017448.html
+
 ### shell case
 
 ```js
